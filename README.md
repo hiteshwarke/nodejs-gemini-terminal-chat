@@ -1,7 +1,18 @@
-Bhai, screenshot dekh ke samajh aa gaya problem kahan hui hai. Jab aapne copy-paste kiya, to "Step 1" ke baad wala pura content ek single code block (```) ke andar chala gaya, isliye baki ka formatting (bold, links, aur code boxes) plain text ki tarah show ho raha hai.
-Maine isko properly fix kar diya hai aur spacing theek kar di hai taaki markdown break na ho.
-Aap bas niche diye gaye box ke top-right corner par jo **"Copy"** ka icon hai us par click karein, aur apne GitHub ke README.md file me direct Ctrl+V (ya Cmd+V) kar dein. Kuch bhi manual edit karne ki zaroorat nahi padegi (bas repo link aur API key ke alawa).
-Yahan raha aapka perfect code:
+## 🧰 Tech Stack & Core Libraries
+
+This project is built using modern JavaScript practices and lightweight dependencies to ensure fast execution and high performance:
+
+* **Node.js:** The core runtime environment for executing JavaScript in the terminal.
+* **@google/genai (v2.6.0+):** The official, newly released Google SDK used to connect and interact with the `gemini-2.5-flash` model.
+* **readline-sync:** A synchronous library used to capture user input interactively directly from the command line without complex callback structures.
+* **dotenv:** A zero-dependency module that loads environment variables (like your `GEMINI_API_KEY`) from a `.env` file into `process.env` for secure credential management.
+
+## ⚙️ Core System Capabilities
+
+* **Stateful Chat Sessions:** The system does not just answer single prompts; it passes the `history: []` array in real-time to maintain conversation memory.
+* **Non-Blocking I/O:** Utilizes Javascript's `async/await` architecture to wait for Google's API responses without freezing the terminal.
+* **ES Modules (ESM):** Configured with `"type": "module"` for modern `import/export` syntax compatibility.
+
 ```markdown
 # Gemini CLI Chatbot 🤖
 
