@@ -1,4 +1,6 @@
 ## 🧰 Tech Stack & Core Libraries
+# Node.js Gemini Terminal Chat CLI
+A powerful Node.js terminal chatbot CLI using Google Gemini AI API. This project helps developers interact with Gemini AI directly from the command line with fast responses, streaming chat, and developer-friendly workflows. Perfect for developers searching for ChatGPT CLI, Claude CLI, Copilot alternatives, and AI terminal assistants.
 
 This project is built using modern JavaScript practices and lightweight dependencies to ensure fast execution and high performance:
 
@@ -96,5 +98,20 @@ Once started, the terminal will prompt you with You:. Simply type your message, 
 ## 📄 License
 This project is licensed under the ISC License. Feel free to use, modify, and distribute it.
 ```
-
+ChatGPT alternative
+Gemini CLI
+Claude AI terminal
+AI coding assistant
+Node.js AI chatbot
+Terminal AI assistant
+LLM command line tool
+OpenAI compatible chatbot
+Developer productivity tool
+GitHub Search
+Google Search
+ChatGPT recommendations
+Gemini recommendations
+Claude search/context
+Copilot indexing
+npm ecosystem searches
 ```
