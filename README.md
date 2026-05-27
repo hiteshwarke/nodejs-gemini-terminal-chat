@@ -1,4 +1,8 @@
-# nodejs-gemini-terminal-chat
+Bhai, screenshot dekh ke samajh aa gaya problem kahan hui hai. Jab aapne copy-paste kiya, to "Step 1" ke baad wala pura content ek single code block (```) ke andar chala gaya, isliye baki ka formatting (bold, links, aur code boxes) plain text ki tarah show ho raha hai.
+Maine isko properly fix kar diya hai aur spacing theek kar di hai taaki markdown break na ho.
+Aap bas niche diye gaye box ke top-right corner par jo **"Copy"** ka icon hai us par click karein, aur apne GitHub ke README.md file me direct Ctrl+V (ya Cmd+V) kar dein. Kuch bhi manual edit karne ki zaroorat nahi padegi (bas repo link aur API key ke alawa).
+Yahan raha aapka perfect code:
+```markdown
 # Gemini CLI Chatbot 🤖
 
 A lightweight, high-performance command-line interface (CLI) chatbot powered by Node.js and Google's latest **Gemini 2.5 Flash** model. 
@@ -6,17 +10,20 @@ A lightweight, high-performance command-line interface (CLI) chatbot powered by 
 This project uses the newly updated `@google/genai` SDK to provide a continuous, context-aware conversational experience right inside your terminal.
 
 ## ✨ Features
+
 * **Continuous Conversation:** Keep chatting without restarting the script.
 * **Context History Management:** The AI remembers the context of the current session for highly specific and relevant answers.
 * **Asynchronous Processing:** Built with modern JS `async/await` for fast, non-blocking API calls.
 * **Latest SDK Integration:** Utilizes the official `@google/genai` package and the `gemini-2.5-flash` free tier model.
 
 ## 🛠️ Prerequisites
+
 Before running this project, ensure you have the following installed:
 * [Node.js](https://nodejs.org/) (v18 or higher recommended)
 * A Google Cloud / AI Studio Account
 
 ## 🔑 How to Get a Free Gemini API Key (Important)
+
 To make this application work, you need a valid Google Gemini API Key. Follow these 3 crucial steps carefully:
 
 **1. Enable the Gemini API:**
@@ -35,19 +42,20 @@ To make this application work, you need a valid Google Gemini API Key. Follow th
 
 ## 🚀 Installation & Setup
 
-**Step 1:** Clone the repository
+**Step 1: Clone the repository**
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/your-username/nodejs-gemini-terminal-chat.git
+cd nodejs-gemini-terminal-chat
 
-
-**Step 2:** Install dependencies
+```
+**Step 2: Install dependencies**
 ```bash
 npm install
 
-**Step 3:** Configure ES Modules
+```
+**Step 3: Configure ES Modules**
 Ensure that your package.json file includes the "type": "module" configuration:
-```bash
+```json
 {
   "name": "genai",
   "version": "1.0.0",
@@ -60,19 +68,22 @@ Ensure that your package.json file includes the "type": "module" configuration:
   }
 }
 
-**Step 4:** Set up Environment Variables
+```
+**Step 4: Set up Environment Variables**
 Create a .env file in the root directory of your project and add your API key:
-```bash
+```env
 GEMINI_API_KEY=your_generated_api_key_here
 
-
+```
 ## 💻 Usage
 Run the application using Node.js:
 ```bash
 node index.js
 
+```
 Once started, the terminal will prompt you with You:. Simply type your message, press Enter, and chat seamlessly with Gemini!
-
 ## 📄 License
 This project is licensed under the ISC License. Feel free to use, modify, and distribute it.
+```
 
+```
