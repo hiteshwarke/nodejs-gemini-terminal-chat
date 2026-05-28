@@ -15,7 +15,6 @@ This project is built using modern JavaScript practices and lightweight dependen
 * **Non-Blocking I/O:** Utilizes Javascript's `async/await` architecture to wait for Google's API responses without freezing the terminal.
 * **ES Modules (ESM):** Configured with `"type": "module"` for modern `import/export` syntax compatibility.
 
-```markdown
 # Gemini CLI Chatbot 🤖
 
 A lightweight, high-performance command-line interface (CLI) chatbot powered by Node.js and Google's latest **Gemini 2.5 Flash** model. 
@@ -32,23 +31,27 @@ This project uses the newly updated `@google/genai` SDK to provide a continuous,
 ## 🛠️ Prerequisites
 
 Before running this project, ensure you have the following installed:
+```markdown
 * [Node.js](https://nodejs.org/) (v18 or higher recommended)
 * A Google Cloud / AI Studio Account
+```
 
 ## 🔑 How to Get a Free Gemini API Key (Important)
 
 To make this application work, you need a valid Google Gemini API Key. Follow these 3 crucial steps carefully:
 
 **1. Enable the Gemini API:**
+```markdown
 * Go to the [Google Cloud Console](https://console.cloud.google.com/).
 * Search for **"Generative Language API"** (This is the Gemini API).
 * Click **Enable**. *(Note: Your API key will not work if this step is skipped).*
-
+```
 **2. Generate the API Key:**
+```markdown
 * Sign in to [Google AI Studio](https://aistudio.google.com/).
 * Ensure you are in the *same project* that you used in the Google Cloud Console.
 * Click on **"Get API Key"** and generate your key.
-
+```
 **3. Payment Verification:**
 * Google AI Studio requires a one-time payment verification to prevent spam.
 * You will need to verify your payment method (Only a temporary deduction of ₹2 / minimal amount occurs, which is usually refunded. You can easily do this via QR code or cards).
@@ -59,8 +62,8 @@ To make this application work, you need a valid Google Gemini API Key. Follow th
 ```bash
 git clone https://github.com/hiteshwarke/nodejs-gemini-terminal-chat.git
 cd nodejs-gemini-terminal-chat
-
 ```
+
 **Step 2: Install dependencies**
 ```bash
 npm install
@@ -97,7 +100,7 @@ node index.js
 Once started, the terminal will prompt you with You:. Simply type your message, press Enter, and chat seamlessly with Gemini!
 ## 📄 License
 This project is licensed under the ISC License. Feel free to use, modify, and distribute it.
-```
+```markdown
 ChatGPT alternative
 Gemini CLI
 Claude AI terminal
