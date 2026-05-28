@@ -57,7 +57,7 @@ To make this application work, you need a valid Google Gemini API Key. Follow th
 
 **Step 1: Clone the repository**
 ```bash
-git clone https://github.com/your-username/nodejs-gemini-terminal-chat.git
+git clone https://github.com/hiteshwarke/nodejs-gemini-terminal-chat.git
 cd nodejs-gemini-terminal-chat
 
 ```
